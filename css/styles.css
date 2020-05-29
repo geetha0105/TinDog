@@ -1,0 +1,210 @@
+/* HTML Elements */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0 15%;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #FF4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+#press, #testimonials {
+background-color: #ef8172;
+}
+
+/* Navigation Bar */
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.nav-link:hover{
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.collapse {
+  padding-right: 0;
+}
+
+.tindog-font {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  transform: rotate(25deg);
+  transform-origin: 60% 60%;
+  position: absolute;
+  width: 60%;
+  right: 30%;
+}
+
+ #title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Middle Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 3%;
+}
+
+.middle-image {
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+
+.middle-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.middle-para {
+  color: #8f8f8f;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0 15%;
+}
+
+.middle-image:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0 15%;
+}
+
+.testimonial-images {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  margin-left: 10px;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 8% 8%;
+  margin: 100px 0 50px o;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 3%;
+}
+
+.pricing-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0 15%;
+}
+
+/* Call to Action Section */
+.cta-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 3% 25%;
+}
+
+.footer-button {
+  margin: 1% 1% 5% 0;
+}
+
+/* Footer */
+#footer {
+  color: #8f8f8f;
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.footer-icon {
+  color: black;
+  margin-right: 10px;
+}
+
+/* Media Query Adjustments */
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
